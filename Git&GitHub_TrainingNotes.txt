@@ -1,0 +1,60 @@
+GIT & GITHUB 
+
+YouTube: https://www.youtube.com/watch?v=xAAmje1H9YM&list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW 
+
+Print GITHUB Code Sheet
+
+Refer to Prasad Notes
+
+1. Install GIT software on local machine 
+2. Have a GIT Hub account 
+3. Configuration on your machine [Specify username and email account to Git]
+
+
+
+2005
+Linus Torvalds
+ 
+Repository/ Repo-- > A folder.
+ 
+Local: Git: Programming language: Local machine/ Laptop / Computer
+ 
+Remote: Remote Repository.: Many platforms.: GitHub, GitLab, Azure DevOps
+ 
+ 
+Git commands: Using Command Line Interface / aka Terminal or
+Nowadays there are softwares that can help to use Git operations using GUI (Graphical user interface). Github Desktop.
+ 
+R Studio: IDE- Integrated Development Environment. It provides functionality to use version controlling using Git.
+ 
+ 
+ 
+Requirements:
+ 
+1. Install Git software on your local machine.
+2. Have a GitHub account.
+3. Configure Git on your machine [Specify your user name and email account to your git]
+ 
+ 
+ 
+1.  Git Configuration: One time thing
+ 
+## Configure your user name
+git config --global user.name "Stephanie Garcia"
+ 
+## Configure your email address
+git config --global user.email sjagarci@fiu.edu
+ 
+## Configure MELD
+git config --global diff.tool meld
+git config --global difftool.prompt
+ 
+## Check your already configured user name:
+git config user.name
+ 
+## Check your already configured user email:
+git config user.email
+ 
+## Check the detailed configuration of the loaded git on your machine
+git config -l
+ 
